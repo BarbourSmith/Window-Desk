@@ -10,19 +10,96 @@
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.3220899470899471,
-            "y": 0.4783950617283951,
+            "x": 0.2585978835978836,
+            "y": 0.4691358024691358,
             "uniqueID": 112132,
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 10
+                    "ioValue": 81
                 },
                 {
                     "name": "y length",
-                    "ioValue": 10
+                    "ioValue": 81
                 }
             ]
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.37433862433862436,
+            "y": 0.6728395061728395,
+            "uniqueID": 291799,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.23015873015873015,
+                    "y": 0.4444444444444444,
+                    "uniqueID": 204015,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 81
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 81
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.39550264550264547,
+                    "y": 0.6790123456790124,
+                    "uniqueID": 739602,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "source/128353/291799/204015Rectangle"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 81
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9867724867724867,
+                    "y": 0.5,
+                    "uniqueID": 412487,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": "source/128353/291799/739602Extrude"
+                        }
+                    ]
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 204015,
+                    "ap2ID": 739602
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 739602,
+                    "ap2ID": 412487
+                }
+            ],
+            "fileTypeVersion": 1,
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "Output",
