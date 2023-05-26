@@ -8,23 +8,6 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Rectangle",
-            "name": "Rectangle",
-            "x": 0.2585978835978836,
-            "y": 0.4691358024691358,
-            "uniqueID": 112132,
-            "ioValues": [
-                {
-                    "name": "x length",
-                    "ioValue": 81
-                },
-                {
-                    "name": "y length",
-                    "ioValue": 81
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Window Side Leg",
             "x": 0.3783068783068783,
@@ -362,6 +345,19 @@
             "unitsIndex": 0
         },
         {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.6805555555555555,
+            "y": 0.8024691358024691,
+            "uniqueID": 984624,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/128353/291799Molecule"
+                }
+            ]
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9867724867724867,
@@ -382,6 +378,13 @@
             "ap2Primary": false,
             "ap1ID": 291799,
             "ap2ID": 160175
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 291799,
+            "ap2ID": 984624
         }
     ],
     "fileTypeVersion": 1,
