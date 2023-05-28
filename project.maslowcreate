@@ -347,8 +347,8 @@
         {
             "atomType": "Molecule",
             "name": "Tall Leg",
-            "x": 0.3257686676427526,
-            "y": 0.718146718146718,
+            "x": 0.32503660322108346,
+            "y": 0.6988416988416989,
             "uniqueID": 860653,
             "ioValues": [],
             "topLevel": false,
@@ -524,14 +524,6 @@
                     ]
                 },
                 {
-                    "atomType": "Box",
-                    "name": "Box",
-                    "x": 0.3323572474377745,
-                    "y": 1.034749034749035,
-                    "uniqueID": 144550,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -617,6 +609,19 @@
         {
             "atomType": "Stl",
             "name": "Stl",
+            "x": 0.45680819912152265,
+            "y": 0.7104247104247104,
+            "uniqueID": 407716,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "source/128353/860653Molecule"
+                }
+            ]
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
             "x": 0.6805555555555555,
             "y": 0.8024691358024691,
             "uniqueID": 984624,
@@ -655,6 +660,13 @@
             "ap2Primary": false,
             "ap1ID": 291799,
             "ap2ID": 984624
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 860653,
+            "ap2ID": 407716
         }
     ],
     "fileTypeVersion": 1,
